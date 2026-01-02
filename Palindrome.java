@@ -14,8 +14,8 @@ public class Palindrome {
 			return true;
 		}
 		if(s.charAt(len-1)== s.charAt(0)){
-			isPalindrome(s.substring(1, len-1));
-			return true;
+			
+			return isPalindrome(s.substring(1, len-1));
 		}else{
 		return false;
     }
